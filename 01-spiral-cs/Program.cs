@@ -8,7 +8,7 @@ namespace spiral
     {
         static void Main(string[] args)
         {
-            var size = new Tuple<int, int>(30, 70);
+            var size = new Tuple<int, int>(70, 70);
 
             var spiral = MakeSpiral(size.Item1, size.Item2);
 
